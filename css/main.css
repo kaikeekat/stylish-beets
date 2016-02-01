@@ -13,5 +13,46 @@ h1, h2, h3 {
 }
 
 i {
+  font-style: italic, bold;
+}
+
+em {
   font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+nav {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+a,
+a:link {
+  text-decoration: none;
+  color: #97203c;
+}
+
+a:hover {
+  color: #461022;
+  text-decoration: underline;
+}
+}
+
+
+blockquote {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+ol:nth-child(1) {
+  list-style-type: none;
 }
