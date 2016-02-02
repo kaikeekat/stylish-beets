@@ -56,3 +56,7 @@ blockquote {
 ol:nth-child(1) {
   list-style-type: none;
 }
+
+dl > dt {
+  font-weight: bold;
+}
