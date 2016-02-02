@@ -22,6 +22,22 @@ figcaption {
   text-align: center;
 }
 
+blockquote {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-decoration: none;
+  font-weight: normal;
+}
+
+cite {
+  font-style: italic;
+}
+
+cite:last-child {
+  font-size: 1.3rem;
+  text-indent: 1em;
+}
+
 nav {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
@@ -38,22 +54,33 @@ a:hover {
   color: #461022;
   text-decoration: underline;
 }
+
+
+.germination {
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
-
-p:nth-child(1) {
-  font-size: 8rem;
+.varieties {
+  list-style-type: lower-greek;
 }
 
-ol:nth-child(1) {
+ol:first-child {
   list-style-type: none;
+}
+
+.servingsize {
+  font-style: italic;
+}
+
+main ol {
+  list-style-type: lower-greek;
 }
 
 dl > dt {
   font-weight: bold;
 }
 
-.germination:nth-child(1) {
-  font-weight: bold;
-  font-size: 2rem;
+ul {
+  list-style-type: circle;
 }
