@@ -12,15 +12,8 @@ h1, h2, h3 {
   font-family: 'PT Sans', sans-serif;
 }
 
-i {
-  font-style: italic, bold;
-}
-
-em {
+h1 > i {
   font-style: italic;
-}
-
-strong {
   font-weight: bold;
 }
 
@@ -48,9 +41,8 @@ a:hover {
 }
 
 
-blockquote {
-  font-style: italic;
-  font-size: 2rem;
+p:nth-child(1) {
+  font-size: 8rem;
 }
 
 ol:nth-child(1) {
@@ -59,4 +51,9 @@ ol:nth-child(1) {
 
 dl > dt {
   font-weight: bold;
+}
+
+.germination:nth-child(1) {
+  font-weight: bold;
+  font-size: 2rem;
 }
