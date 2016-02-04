@@ -1,15 +1,16 @@
+
 img {
   width: 100%;
 }
 
 html {
   background-color: #c9b5ae;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 h1, h2, h3 {
   color: #461022;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 > i {
@@ -25,8 +26,9 @@ figcaption {
 blockquote {
   font-style: italic;
   font-size: 1.7rem;
-  font-decoration: none;
+  text-decoration: none;
   font-weight: normal;
+  line-height: 1.45;
 }
 
 cite {
@@ -39,10 +41,9 @@ cite:last-child {
 }
 
 nav {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
-
 
 a,
 a:link {
@@ -54,7 +55,6 @@ a:hover {
   color: #461022;
   text-decoration: underline;
 }
-
 
 .germination {
   font-weight: bold;
